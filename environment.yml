@@ -1,0 +1,10 @@
+name: app_environment
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+dependencies:
+  - python
+  - snowflake-ml-python
+  - snowflake-snowpark-python
+  - snowflake-connector-python
+  - streamlit
